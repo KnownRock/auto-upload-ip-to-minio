@@ -1,0 +1,27 @@
+{
+  "name": "auto-upload-ip-to-minio",
+  "version": "0.0.2",
+  "description": "upload ip to minio by cron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnownRock/auto-upload-ip-to-minio.git"
+  },
+  "keywords": [
+    "minio",
+    "ip"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KnownRock/auto-upload-ip-to-minio/issues"
+  },
+  "homepage": "https://github.com/KnownRock/auto-upload-ip-to-minio#readme",
+  "dependencies": {
+    "jsonpath": "^1.1.1",
+    "node-cron": "^3.0.0"
+  }
+}
